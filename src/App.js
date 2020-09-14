@@ -10,12 +10,11 @@ function App() {
   const [messages, setMessages] = useState([]);
   useEffect(() => {
     axios.get("/messages/sync").then((response) => {
-      console.log(response.data);
+     
       setMessages(response.data);
     });
   }, []);
-  console.log(messages);
-  console.log(typeof messages);
+  
   useEffect(() => {
     const pusher = new Pusher("04fce40b2e6ccaebe6ad", {
       cluster: "ap2",
@@ -32,7 +31,7 @@ function App() {
     };
   }, [messages]);
 
-  console.log(typeof messages);
+  
 
   return (
     <div className="App">
