@@ -3,7 +3,7 @@ import axios from "axios"
  
         
 const instance = axios.create({
-    baseURL: 'https://whatsappclone-rohit.herokuapp.com',
+    baseURL: 'https://whatsappbackend.herokuapp.com/',
 })       
  
 
