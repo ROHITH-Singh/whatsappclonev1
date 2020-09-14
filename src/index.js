@@ -7,6 +7,13 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+     
+<script src="/__/firebase/7.20.0/firebase-app.js"></script>
+
+ 
+
+
+<script src="/__/firebase/init.js"></script>
   </React.StrictMode>,
   document.getElementById('root')
 );
