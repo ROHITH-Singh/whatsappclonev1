@@ -1,4 +1,8 @@
 # whatsappclonev1
+# this is same version of whatsapp clone another project in my repository differenece is its made for deploying react app on github pages 
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
