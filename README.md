@@ -3,6 +3,7 @@
 check on and put a message on this page
 https://rohith-singh.github.io/whatsappclonev1/ 
 
+# backend of this is hosted on heroku 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
